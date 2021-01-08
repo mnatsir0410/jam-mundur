@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+  }
+
+body {
+    background: linear-gradient(to right, #d119c2, #071d66);
+    justify-content: center;
+}

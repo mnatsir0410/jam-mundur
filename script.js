@@ -18,20 +18,12 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-<<<<<<< HEAD
-  document.getElementById("timer").innerHTML = days + " Hari " + hours + " Jam " + minutes + " Menit " + seconds + " Detik ";
-=======
   document.getElementById("Waktu").innerHTML = days + " Hari " + hours + " Jam " + minutes + " Menit " + seconds + " Detik ";
->>>>>>> master
     
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-<<<<<<< HEAD
-    document.getElementById("timer").innerHTML = "EXPIRED";
-=======
     document.getElementById("Waktu").innerHTML = "EXPIRED";
->>>>>>> master
   }
 }, 1000);
 

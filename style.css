@@ -16,10 +16,6 @@ h1 {
   }
 
 body {
-<<<<<<< HEAD
-    background: linear-gradient(to right, #4dd119, #0de4e4);
-=======
-    background: linear-gradient(to right, #23da0b, #d3c60b);
->>>>>>> master
+    background: linear-gradient(to right, #dd112c, #07225e);
     justify-content: center;
 }
